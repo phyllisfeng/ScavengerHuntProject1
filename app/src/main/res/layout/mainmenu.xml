@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="What do you like to do?"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mainMenuButton_newGame"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="Start a new Game"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/mainMenuButton_joinGame"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="Join a Game"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/mainMenuButton_myGames"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="View My Games"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
